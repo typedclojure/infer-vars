@@ -1,5 +1,5 @@
 (ns infer-vars.core
-  {:core.typed {}}
+  {:core.typed {:experimental #{:infer-vars}}}
   (:require [clojure.core.typed :as t]))
 
 (t/tc-ignore
